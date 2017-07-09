@@ -1,0 +1,41 @@
+/* Universal styles */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Logo Section */
+
+.logo {
+  background-color: black;
+  width: 960px;
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+}
+.logo p {
+  margin: 0.66rem 1rem;
+}
+
+/* Main Banner */
+
+
+
+/* Navigation Bar */
+
+
+
+/* Product Grid */
+
+
+
+/* Location & Hours Section */
+
+
+
+/* Footer */

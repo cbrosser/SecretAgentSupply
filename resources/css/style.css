@@ -5,13 +5,28 @@ html {
   font-family: Helvetica;
   color: white;
 }
+h1 {
+  font-size: 2rem;
+}
+.logo,
+.banner,
+.navigation,
+.grid,
+footer {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  width: 960px;
+}
 
 /* Logo Section */
 
 .logo {
   background-color: black;
-  width: 960px;
-  display: flex;
+}
+.logo .container {
   align-items: center;
 }
 .logo img {
@@ -24,7 +39,29 @@ html {
 
 /* Main Banner */
 
-
+.banner {
+  height: 25rem;
+  background-image: url("./moto.jpeg");
+  background-size: cover;
+}
+.banner .container {
+  align-items: flex-start;
+}
+.main {
+  width: 20rem;
+  height: auto;
+  margin-top: 9rem;
+  background-color: black;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+.main p {
+  margin: 2rem 0 0.25rem 3rem;
+}
+.main h1 {
+  margin: 0.25rem 0 2rem 3rem;
+}
 
 /* Navigation Bar */
 

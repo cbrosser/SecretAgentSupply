@@ -146,3 +146,42 @@ footer {
     width: 47%;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .main p {
+    font-size: 0.77rem;
+    margin: 1rem 0 0.25rem 2rem;
+  }
+  .main h1 {
+    margin-left: 2rem;
+  }
+  .main {
+    width: 100%;
+    margin-top: 10rem;
+  }
+  .banner .container {
+    align-items: flex-end;
+  }
+  .banner {
+    height: auto;
+  }
+  .grid .container {
+    justify-content: center;
+  }
+  .product {
+    width: 90%;
+  }
+  .info {
+    width: 90%;
+    margin-bottom: 0.5rem;
+  }
+  footer {
+    margin-top: 4rem;
+  }
+  footer .container{
+    justify-content: center;
+  }
+}

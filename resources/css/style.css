@@ -85,8 +85,11 @@ nav ul,
 
 /* Style Navigation Bar */
 
-nav ul {
+nav {
   margin: 0.75rem 0;
+}
+nav a {
+  display: none;
 }
 
 /* Style Product Grid */
@@ -122,4 +125,24 @@ nav ul {
 
 footer {
   height: 5rem;
+}
+
+/* Media Queries to adjust layout for smaller screens */
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  nav a {
+    display: block;
+    text-align: center;
+  }
+  .grid .container {
+    max-height: 21rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+  .product {
+    width: 47%;
+  }
 }

@@ -16,7 +16,8 @@ footer {
   display: flex;
   justify-content: center;
 }
-.container {
+.container,
+nav ul {
   display: flex;
   width: 960px;
 }
@@ -65,7 +66,13 @@ footer {
 
 /* Navigation Bar */
 
-
+.navigation {
+  background-color: firebrick;
+}
+nav ul {
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
 
 /* Product Grid */
 

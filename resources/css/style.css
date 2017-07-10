@@ -77,11 +77,11 @@ nav ul {
 /* Product Grid */
 
 .grid .container {
-  margin: 3rem 0;
   justify-content: space-between;
 }
 .product {
   width: 30%;
+  margin: 3rem 0;
   display: flex;
   flex-direction: column;
 }
@@ -98,6 +98,16 @@ nav ul {
 
 /* Location & Hours Section */
 
-
+.info {
+  width: 35%;
+  margin-bottom: 4rem;
+}
+.heading {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+.detail {
+  color: black;
+}
 
 /* Footer */
